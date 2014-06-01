@@ -44,7 +44,7 @@ if __name__ == "__main__":
     trelloManager.get_linked_cards(configuration["trello_projectname"])
 
     print "TODO:"
-    print " - export all relevant trello fields (planned time, due date, ..)"
+    print " - export all relevant trello fields (planned time, due date, assigned, ..)"
     print " - update already existing issues with plausible new values from trello"
     print " - update trello checklist items from redmine issue status"
     print " - move trello card to 'in progress board', when at least 1 subtask has status in progress"
@@ -71,5 +71,7 @@ if __name__ == "__main__":
         print e
         print
         print "Redmine-Trello CRASHED!"
+
+    print "if token expired, delete config-files and restart to generate new tokens"
 
 

@@ -3,8 +3,8 @@ import TrelloManager
 import os
 
 home = os.path.expanduser("~")
-ConfigFileString = os.path.join(home, "RedmineTrelloConfiguration.cfg")
-DefaultAPIKeyFileString = os.path.join(home, "RedmineTrelloAPIKeyFile.cfg")
+ConfigFileString = os.path.join(home, "RedmineTrelloConfiguration2.cfg")
+DefaultAPIKeyFileString = os.path.join(home, "RedmineTrelloAPIKeyFile2.cfg")
 
 
 # this class is reading and writing config-files for the API-Keys.
