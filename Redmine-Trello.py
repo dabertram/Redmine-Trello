@@ -53,7 +53,14 @@ if __name__ == "__main__":
     print "## need to think about:"
     print " - mark issues when card is moved to another board via trello"
     print " - generate/create/export gantt to trello (where ever in there)"
+    print
+    print " - update trello from updated issues"
+    print " - create trello board that reflects anything that is going on with trackers like: bug, problem, whatever else.."
+    print " - export features from redmine that trello misses (time-tracking, gantt-stuff if needed, ...)"
+    print " - map more high-level structures (versions, milestones, ..)"
 
+    print
+    print
     print
     print "Redmine-Trello FINISHED"
 

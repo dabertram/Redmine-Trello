@@ -54,6 +54,10 @@ class ConfigManager:
 
         print "creating config file"
 
+        print "experimental!! do NOT use on any productive management system. you have been warned."
+        print "experimental!! do NOT use on any productive management system. you have been warned."
+        print "experimental!! do NOT use on any productive management system. you have been warned."
+
         print "enter location for API-Key file [", DefaultAPIKeyFileString, "] : "
         APIFileString = raw_input()
         if APIFileString == "":
