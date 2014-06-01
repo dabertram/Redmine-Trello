@@ -49,7 +49,7 @@ class TrelloManager:
     client = None
 
     def __init__(self):
-        None
+        self.configuration = None
 
     def __del__(self):
         if self.client:
@@ -58,6 +58,7 @@ class TrelloManager:
 
 
     def connect_trello(self, configuration):
+        self.configuration = configuration
         self.client = trello.TrelloClient(api_key=configuration["trello_api_key"],
                                           api_secret=configuration["trello_api_secret"],
                                           token=configuration["oauth_token"],

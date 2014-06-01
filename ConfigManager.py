@@ -118,6 +118,9 @@ class ConfigManager:
     def createAPIFile(self, file_string):
         APIKeys = {}
 
+        print "Enter your redmine projectname:"
+        APIKeys["redmine_projectname"] = raw_input()
+
         print "enter redmine username: "
         APIKeys["redmine_name"] = raw_input()
 
@@ -125,8 +128,10 @@ class ConfigManager:
         APIKeys["redmine_api_key"] = raw_input()
         print "Enter your redmine url :"
         APIKeys["redmine_url"] = raw_input()
-        print "Enter your redmine projectname:"
-        APIKeys["redmine_projectname"] = raw_input()
+
+
+        print "Enter your trello projectname:"
+        APIKeys["trello_projectname"] = raw_input()
 
         print "enter trello username: "
         APIKeys["trello_name"] = raw_input()
