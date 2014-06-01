@@ -4,9 +4,10 @@ Redmine-Trello
 * pip install python-redmine
 * pip install py-trello
 
-experimental!! do NOT use on any productive management system. you have been warned.
-experimental!! do NOT use on any productive management system. you have been warned.
-experimental!! do NOT use on any productive management system. you have been warned.
+do not run this code:
+* experimental!! do NOT use on any productive management system. you have been warned.
+* experimental!! do NOT use on any productive management system. you have been warned.
+* experimental!! do NOT use on any productive management system. you have been warned.
 
 work in progress:
 - export from trello to redmine
